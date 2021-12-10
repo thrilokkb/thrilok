@@ -1,0 +1,164 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "artifactsLocation": {
+            "value": "https://wvdportalstorageblob.blob.core.windows.net/galleryartifacts/Configuration_9-30-2021.zip"
+        },
+        "nestedTemplatesLocation": {
+            "value": "https://catalogartifact.azureedge.net/publicartifacts/Microsoft.Hostpool-ARM-1.10.2/"
+        },
+        "tokenExpirationTime": {
+            "value": "2021-12-11T10:20:09.747Z"
+        },
+        "vmTemplate": {
+            "value": ""
+        },
+        "intune": {
+            "value": false
+        },
+        "hostpoolName": {
+            "value": "Win10Pooled"
+        },
+        "hostpoolDescription": {
+            "value": "Created through the Azure Virtual Desktop extension"
+        },
+        "location": {
+            "value": "eastus"
+        },
+        "validationEnvironment": {
+            "value": false
+        },
+        "hostpoolType": {
+            "value": "Pooled"
+        },
+        "loadBalancerType": {
+            "value": "BreadthFirst"
+        },
+        "vmResourceGroup": {
+            "value": ""
+        },
+        "vmNamePrefix": {
+            "value": ""
+        },
+        "vmLocation": {
+            "value": ""
+        },
+        "availabilityOption": {
+            "value": "None"
+        },
+        "availabilitySetName": {
+            "value": ""
+        },
+        "createAvailabilitySet": {
+            "value": false
+        },
+        "availabilitySetUpdateDomainCount": {
+            "value": 5
+        },
+        "availabilitySetFaultDomainCount": {
+            "value": 2
+        },
+        "availabilityZone": {
+            "value": 1
+        },
+        "vmSize": {
+            "value": ""
+        },
+        "vmNumberOfInstances": {
+            "value": 0
+        },
+        "vmDiskType": {
+            "value": "StandardSSD_LRS"
+        },
+        "vmUseManagedDisks": {
+            "value": true
+        },
+        "bootDiagnostics": {
+            "value": {
+                "enabled": true
+            }
+        },
+        "virtualNetworkResourceGroupName": {
+            "value": ""
+        },
+        "existingVnetName": {
+            "value": ""
+        },
+        "existingSubnetName": {
+            "value": ""
+        },
+        "createNetworkSecurityGroup": {
+            "value": false
+        },
+        "aadJoin": {
+            "value": false
+        },
+        "administratorAccountUsername": {
+            "value": ""
+        },
+        "administratorAccountPassword": {
+            "value": null
+        },
+        "domain": {
+            "value": ""
+        },
+        "ouPath": {
+            "value": ""
+        },
+        "vmAdministratorAccountUsername": {
+            "value": ""
+        },
+        "vmAdministratorAccountPassword": {
+            "value": null
+        },
+        "addToWorkspace": {
+            "value": true
+        },
+        "applicationGroupTags": {
+            "value": {}
+        },
+        "availabilitySetTags": {
+            "value": {}
+        },
+        "hostpoolTags": {
+            "value": {}
+        },
+        "imageTags": {
+            "value": {}
+        },
+        "networkInterfaceTags": {
+            "value": {}
+        },
+        "networkSecurityGroupTags": {
+            "value": {}
+        },
+        "virtualMachineTags": {
+            "value": {}
+        },
+        "apiVersion": {
+            "value": "2019-12-10-preview"
+        },
+        "deploymentId": {
+            "value": "1544bc2e-75c4-475a-a7b8-7f35f152702f"
+        },
+        "maxSessionLimit": {
+            "value": 2
+        },
+        "workspaceResourceGroup": {
+            "value": "RG1-AVD"
+        },
+        "workspaceName": {
+            "value": "Win10Pooled"
+        },
+        "workspaceLocation": {
+            "value": "eastus"
+        },
+        "allApplicationGroupReferences": {
+            "value": ""
+        },
+        "isNewWorkspace": {
+            "value": true
+        }
+    }
+}
